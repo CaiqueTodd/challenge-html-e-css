@@ -1,0 +1,29 @@
+@import url("assets/style/header.css");
+@import url("assets/style/sobre-nos.css");
+@import url("assets/style/estatisticas.css");
+@import url("assets/style/vagas-abertas.css");
+@import url("assets/style/recomendacao.css");
+@import url("assets/style/footer.css");
+
+:root {
+    --fonte-principal: "inter";
+    --cor-principal: #667085;
+    --cor-branco: #FFFFFF;
+    --cor-vermelho: #8E2424;
+    --cor-preto: #000000;
+}
+
+body {
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-principal);
+}
+
+header {
+    padding: 0 112px;
+}
+
+main {
+    padding: 0 112px;
+}

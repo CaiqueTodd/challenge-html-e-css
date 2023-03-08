@@ -1,0 +1,37 @@
+.estatisticas {
+    height: 288px;
+}
+
+.estatisticas__lista {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.estatisticas__item {
+    width: 280px;
+}
+
+.estatisticas__item span {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-vermelho);
+    line-height: 72px;
+}
+
+.estatisticas__item h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-preto);
+    line-height: 28px;
+    margin: 12px 0 8px 0;
+}
+
+.estatisticas__item p {
+    line-height: 24px;
+}
+
+.vagas-abertas__imagem {
+    width: 1216px;
+    margin: 64px 0;
+}

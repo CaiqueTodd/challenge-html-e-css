@@ -1,0 +1,48 @@
+.container__navegacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__logo-menu {
+    display: flex;
+    gap: 119px;
+}
+
+.container__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu__lista {
+    display: flex;
+    font-weight: 500;
+    margin: 28px 0;
+    color: var(--cor-principal);
+    gap: 32px;
+}
+
+.menu__item {
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+.login-cadastro__lista {
+    display: flex;
+    margin: 18px 0;
+    padding: 10px;
+    gap: 30px;
+}
+
+.login-cadastro__item-entrar {
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+.login-cadastro__item-cadastrar {
+    text-decoration: none;
+    color: var(--cor-branco);
+    background: var(--cor-vermelho);
+    padding: 10px 18px;
+    border-radius: 8px;
+}

@@ -1,0 +1,32 @@
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 0 107px 0;
+}
+
+.sobre-nos h2 {
+    font-weight: 600;
+    color: var(--cor-vermelho);
+}
+
+.sobre-nos h3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    margin: 24px 0 36px 0;
+}
+
+.sobre-nos p {
+    font-size: 20px;
+    width: 791px;
+    line-height: 30px;
+}
+
+.recomendacao__subtitulo {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--cor-preto);
+    width: 768px;
+}
